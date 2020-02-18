@@ -31,7 +31,7 @@ function loop() {
   if (pause === true) {
     return;
   }
-  if (++count < 4) {
+  if (++count < 6) {
     return;
   }
   count = 0;
