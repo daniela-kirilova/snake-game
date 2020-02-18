@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: rgb(214, 237, 248);
+}
+.canvasWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+canvas {
+  border: 5px solid rgb(104, 8, 83);
+}
+#score {
+  font-style: italic;
+  color: red;
+  font-size: 20px;
+}
+#paused {
+  background: #00ff0e;
+  width: 161px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-style: italic;
+}
+#reset {
+  display: none;
+  position: absolute;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: #00ff0e;
+  width: 150px;
+  margin-left: 45%;
+  margin-right: 30%;
+  margin-top: 290px;
+  font-style: italic;
+}
+.scoreWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 640px;
+}
+.headerWrapper {
+  display: flex;
+  justify-content: center;
+}
